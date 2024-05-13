@@ -1,0 +1,17 @@
+#header {
+  li {
+    &:hover > .dropdown {
+      display: block !important;
+    }
+    .dropdown {
+      a:hover {
+        color: #e3a51e !important;
+      }
+    }
+  }
+  .header-bottom {
+    .dropdown {
+      width: 12rem !important;
+    }
+  }
+}

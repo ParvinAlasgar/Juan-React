@@ -1,0 +1,15 @@
+#footer {
+  background-color: #f0f0f0;
+  li {
+    transition: transform 0.3s;
+    &:hover {
+      transform: translateX(0.5rem);
+    }
+    a {
+      transition: color 0.3s;
+      &:hover {
+        color: #e3a51e !important;
+      }
+    }
+  }
+}

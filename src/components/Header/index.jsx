@@ -85,7 +85,7 @@ const Header = () => {
                       HOME
                       <IoMdArrowDropdown />
                     </a>
-                    <ul className="dropdown d-none list-unstyled position-absolute border bg-white p-3">
+                    <ul className="dropdown d-none list-unstyled position-absolute border bg-white p-3 z-2">
                       <li>
                         <a className="text-dark text-decoration-none" href="#">
                           Home Version 01
@@ -109,7 +109,7 @@ const Header = () => {
                       SHOP
                       <IoMdArrowDropdown />
                     </a>
-                    <ul className="dropdown d-none list-unstyled position-absolute border bg-white p-3">
+                    <ul className="dropdown d-none list-unstyled position-absolute border bg-white p-3 z-2">
                       <li>
                         <a className="text-dark text-decoration-none" href="#">
                           Shop Grid Layout
@@ -132,7 +132,7 @@ const Header = () => {
                       BLOG
                       <IoMdArrowDropdown />
                     </a>
-                    <ul className="dropdown d-none list-unstyled position-absolute border bg-white p-3">
+                    <ul className="dropdown d-none list-unstyled position-absolute border bg-white p-3 z-2">
                       <li>
                         <a className="text-dark text-decoration-none" href="#">
                           Blog Left Sidebar

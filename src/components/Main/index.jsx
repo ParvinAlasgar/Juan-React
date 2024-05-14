@@ -1,4 +1,5 @@
 import Banner from "../Banner";
+import Blog from "../Blog";
 import Brands from "../Brands";
 
 const main = () => {
@@ -6,6 +7,7 @@ const main = () => {
     <>
       <section id="main">
         <Banner />
+        <Blog />
         <Brands />
       </section>
     </>

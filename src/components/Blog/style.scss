@@ -1,0 +1,8 @@
+#blog {
+  a {
+    transition: color 0.3s;
+    &:hover {
+      color: #e3a51e !important;
+    }
+  }
+}

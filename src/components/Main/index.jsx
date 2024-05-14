@@ -1,3 +1,4 @@
+import Hero from "../Hero";
 import Product from "../Product";
 import Banner from "../Banner";
 import Blog from "../Blog";
@@ -7,6 +8,7 @@ const main = () => {
   return (
     <>
       <section id="main">
+        <Hero />
         <Product />
         <Banner />
         <Blog />

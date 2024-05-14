@@ -1,0 +1,9 @@
+#product {
+  .product {
+    transition: border-color 0.3s;
+    &:hover {
+      cursor: pointer;
+      border-color: #e3a51e !important;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+#banner {
+  .banner-img {
+    img {
+      transition: all 0.4s;
+      &:hover {
+        transform: scale(1.1);
+        filter: brightness(0.7);
+      }
+    }
+  }
+  .banner-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
